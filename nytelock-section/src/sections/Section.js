@@ -7,9 +7,10 @@ export default function Section() {
     return (
         <div className="section">
             <p> whole section</p>
+            
             <Selection/>
             <InfoSection/>
-
+            
         </div>
     )
 }
