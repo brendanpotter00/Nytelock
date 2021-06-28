@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function MascotInfo() {
     return (
-        <div>
-            
-        </div>
+    <div className="infoContainer">
+        <p>mascot container</p>
+    </div>
     )
 }

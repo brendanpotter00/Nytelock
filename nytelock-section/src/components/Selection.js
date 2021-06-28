@@ -34,7 +34,7 @@ export default function Selection() {
     
     return (
         <div className="container">
-            <p>hello</p>
+            <p>in selection.js THE WHOLE SECTION CARD</p>
 
             {showInfo()}
         </div>
