@@ -6,17 +6,19 @@ import mrpeanut from '../imgs/mrpeanut.png';
 export default function MascotInfo() {
     return (
         <div className="infoContainer">
-            <p></p>
+        <div className="wordContainer">
+
         <h2 className="infoTitle">
             Mascot Logos
         </h2>
 
         <p className="infoParagraph">
-            A Monogram or lettermark is a typography-based logo thats comprised of a few letters, usually a company's initials. The lettermark is all about simplicity 
-
-            By utilizing just a few letters lettermark logos are effective at streamlining any company brand if they have a long name.
+            Mascot logos are logos that invovle an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson
         </p>
-
+        <p className="infoParagraph">
+            A mascot is simply an illustrated character that represents your company. Think of them as the ambassador for your business. Famous mascots include the Kool-Aid Man, KFC's Colonel and PUB's cute Water Wally. 
+        </p>
+        </div>
         <div className="logoContainer">
             <img className="logo" src={koolaid} alt=''/>
             <img className="logo" src={kfc} alt=''/>

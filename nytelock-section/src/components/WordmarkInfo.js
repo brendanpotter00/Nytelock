@@ -6,17 +6,19 @@ import google from '../imgs/google.png';
 export default function WordmarkInfo() {
     return (
         <div className="infoContainer">
-            <p>wordmark container</p>
+            <div className="wordContainer">
+
             <h2 className="infoTitle">
                 Wordmark Logos
             </h2>
 
             <p className="infoParagraph">
-                A Monogram or lettermark is a typography-based logo thats comprised of a few letters, usually a company's initials. The lettermark is all about simplicity 
-
-                By utilizing just a few letters lettermark logos are effective at streamlining any company brand if they have a long name.
+                 Similar to a lettermark, a wordmark or logotype is a font-based logo that focuses on a business' name alone. Think Visa and Coca-Cola. Wordmark logos work really well when a company has a succinct and distinct name. Google's logo is a great example of this. The name itself is catchy and memorable so, when combined with strong typography, the logo helps create strong brand recognition. 
             </p>
-
+            <p className="infoParagraph">
+                
+            </p>
+            </div>
             <div className="logoContainer">
                 <img className="logo" src={visa} alt=''/>
                 <img className="logo" src={cola} alt=''/>

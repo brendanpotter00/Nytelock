@@ -1,27 +1,58 @@
-import React from 'react'
+
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+
 import './selection.css';
-import LettermarkInfo from './LettermarkInfo.js'
-import WordmarkInfo from './WordmarkInfo.js'
-import PictoralInfo from './PictoralInfo.js'
-import AbstractInfo from './AbstractInfo.js'
-import MascotInfo from './MascotInfo.js'
-import CombInfo from './CombInfo.js'
+import LettermarkInfo from './LettermarkInfo.js';
+import WordmarkInfo from './WordmarkInfo.js';
+import PictoralInfo from './PictoralInfo.js';
+import AbstractInfo from './AbstractInfo.js';
+import MascotInfo from './MascotInfo.js';
+import CombInfo from './CombInfo.js';
 
 import contactArrow from '../imgs/contactArrow.png';
 
 //import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 
-import { useState } from 'react';
-
 
 
 export default function Selection() {
    
+
     const [cat, setInfo] = useState('lettermark')
-    
-    
+
+    /*
+    const bothFunctions = () => { 
+        showInfo();
+        fadeProp();
+    }  
+
+
+    const [fadeProp, setFadeProp] = useState({
+        fade: 'fade-in',
+    });
+
+    useEffect(() => {
+        const timeout = setInterval(() => {
+            if (fadeProp.fade === 'fade-in') {
+
+            } else {
+                setFadeProp({
+                    fade: 'fade-in'
+                })
+            }
+        }, 4000);
+
+        return () => clearInterval(timeout)
+
+    }, [fadeProp])
+
+    const setFaderProp ()
+
+    */
 
     const showInfo = () => {
+
 
         if (cat === 'lettermark') {
             return ( <LettermarkInfo /> )
@@ -38,6 +69,10 @@ export default function Selection() {
         }
         
     }
+
+
+    
+
     
     return (
         <div className="container">

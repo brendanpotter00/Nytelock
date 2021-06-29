@@ -1,91 +1,110 @@
+
+/*WHOLE CONTAINER */
 .infoContainer {
-    
-    position: relative;
-    top: 2rem;
-    right: 6rem;
-    left:0.1rem;
-    width: 30rem;
-    display: flex;
-    flex-direction: row;
     /*
-    background-color: white;
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 2rem;
-    column-gap: 0rem;
+    border: 1px solid #666;
     */
+    display:flex;
+    margin-bottom: 5rem;
+    align-items: center;
+    /*
+    width: 90%;
+    */  
+
+
 }
 
+.infoContainer {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+@keyframes infoContainer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes infoContainer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes infoContainer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes infoContainer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes infoContainer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+/*INFO*/
 .wordContainer {
-    background-color: red;
-    margin-right: 10rem;
-    
     /*
-    padding-right: 20rem;
-    padding-left: 5rem;
-    background-color: red;    
+    border: 1px solid #666;
     */
+    flex: 1;
+    align-items: left;
+   
+    
     
 }
 
-.infoTitle{
-    font-weight: bold;
-    font-family: 'Open Sans';
-    /*
-    font-size: 2rem;
-    font-family:sans-serif;
+.infoTitle {
+    align-items: left;
     text-align: left;
-    */
+    padding-right: 20%;
+    padding-left: 20%;
+    
+    font-size: 2rem;
 }
 
 .infoParagraph {
-    color: gray;
-    line-height: 2rem;
-    /*
-    font-weight: lighter;
-    display: inline-block;
+    align-items: left;
+    padding-right: 20%;
+    padding-left: 20%;
     text-align: left;
-    */
+    color: rgb(136, 136, 136);
+
 }
 
+/*LOGOS*/
 
-/*LOGO PICTURE STYLING*/
-.logoContainer {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 8rem;
-    background-color:red;
-    padding-bottom: 90%;
-    /*
-    position: relative;
-    margin-left: 27%;
-    
-    background-color:blueviolet;
 
-   
-    align-items: flex-end; 
-    padding-right: 5rem;
-    padding-left: 20rem;
-    padding-bottom: 6rem;
-    
-    
-    vertical-align: middle;
-    */
-}
 .logo { 
-    margin-left:0.4rem;
-    margin-right: 0.4rem;
     height: 8rem;
     width: 8rem;
-    border:1px solid rgb(158, 156, 156);
+    border:1px solid lightgray;
     margin-top: 1rem;
-    
-   
+    margin-left:0.4rem;
+    margin-right: 0.2rem;
 }
+
+.logoContainer {
+    flex: 1;
+    
+    
+    transition: all 1s 0s ease;
+    opacity: 1;
+}
+
+@keyframes logoContainer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+  
 
 
 
@@ -96,12 +115,72 @@
 
 /**/
 @media only screen and (max-width: 950px) {
-
+    .logoContainer {
+        /*
+        border: 1px solid #666;
+        */
+        flex: 1;
+    }
+    
+    .logo { 
+        height: 6rem;
+        width: 6rem;
+        border:1px solid rgb(184, 184, 184);
+       
+        margin-left:0.4rem;
+        margin-right: 0.2rem;
+    }
 }
 
 /**/
 @media only screen and (max-width: 810px) {
+/*WHOLE CONTAINER */
+    .infoContainer {
+         /*
+        border: 1px solid #666;
+        */
+        
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        align-items: center;
 
+    }
+
+    /*INFO*/
+    .wordContainer {
+         /*
+        border: 1px solid #666;
+        */
+        flex: 1;
+        align-items: left;
+    }
+
+    .infoTitle {
+        align-items: left;
+    }
+
+    .infoParagraph {
+        align-items: left;
+    }
+
+    /*LOGOS*/
+    .logoContainer {
+         /*
+        border: 1px solid #666;
+        */
+        margin-top: .5rem;
+        flex: 1;
+    }
+
+    .logo { 
+        height: 7rem;
+        width: 7rem;
+        border:1px solid lightgray;
+        margin-top: 1rem;
+        margin-left:0.4rem;
+        margin-right: 0.2rem;
+    }
 }
 /**/
 @media only screen and (max-width: 740px) {
@@ -118,6 +197,13 @@
 }
 
 /**/
-@media only screen and (max-width: 340px) {
-
+@media only screen and (max-width: 390px) {
+    .logo { 
+        height: 4.5rem;
+        width: 4.5rem;
+        border:1px solid lightgray;
+        margin-top: 1rem;
+        margin-left:0.4rem;
+        margin-right: 0.2rem;
+    }
 }

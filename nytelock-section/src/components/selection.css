@@ -1,6 +1,10 @@
 .container {
     
 }
+.fade-in {
+    transition: opacity 1s ease;
+}
+
 /*TITLE STYLIING*/
 .twoTitles {
     text-align: left;
@@ -8,7 +12,7 @@
     padding-bottom: 2rem;
 }
 .bulletTitle {
-    color: yellow;
+    color: rgb(240, 208, 69);
     padding-top: 3rem;
     font-size: .8rem;
     font-weight: bold;
@@ -41,7 +45,7 @@
     height: 8rem;
     background-color: inherit;
     width: 10rem;
-    color: yellow;
+    color: rgb(240, 208, 69);
     font-weight: bold;
     border-radius: 10px;
     margin-left: 1rem;
@@ -50,6 +54,8 @@
     font-size:.5;
     position: relative;
     padding-bottom: .8rem;
+
+    
 }
 
 .btnText {
@@ -62,7 +68,7 @@
     color: black;
     background-color:white;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: rgb(240, 208, 69);
 }
 
 .infoBtn:hover {
@@ -114,37 +120,67 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 8rem;
-    bottom: 6rem;
+    bottom: 5rem;
+    border-radius: 10rem;
+
+    /*
+    border: 5px solid white;
+    */
     
 }
 
 .contactBtn {
-    cursor: pointer;
-    
-    height: 2.5rem;
-    width: 10rem;
-    background-color: yellow;
-    padding: .5rem;
-    padding-bottom: .5rem;
-    color: black;
-    font-weight: bold;
-    border-radius: 50px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border:none;
-    font-size:.5;
-    position: relative;
+    background:rgb(240, 208, 69);
+    display: flex;
     justify-content: flex-end;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10rem;
+    width:10rem;
+    height:3rem;
+    align-items: center;
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    /*
+    border: 5px solid white;
+    */
     
 }
 
 .arrow {
-    height: 3rem;
-    width: 3rem;
-    margin-right: -2.5rem;
+    margin-right:-0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    /*
+    border: 5px solid white;
+    */
+}
 
-    display: grid;
-    grid-template-columns: repeat(2, 1px);
+/*contact button affects*/
+.contactBtn:hover {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.contactBtn:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width:0%;
+    height:100%;
+    background-color: white;
+    transition: all .4s;
+    z-index: -1;
+}
+
+.contactBtn:hover:before{
+    background-color: #ffdc67 ;
+    width: 100%;
 }
 
 /**/

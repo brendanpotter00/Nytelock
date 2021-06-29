@@ -7,17 +7,19 @@ import pepsi from '../imgs/pepsi.png';
 export default function AbstractInfo() {
     return (
         <div className="infoContainer">
-            <p></p>
+            <div className="wordContainer">
+
             <h2 className="infoTitle">
-                Abstract Logos
+                Abstract Mark Logos
             </h2>
 
             <p className="infoParagraph">
-                A Monogram or lettermark is a typography-based logo thats comprised of a few letters, usually a company's initials. The lettermark is all about simplicity 
-
-                By utilizing just a few letters lettermark logos are effective at streamlining any company brand if they have a long name.
+                An abstract mark is a specific type of pictorial logo. Instead of being a recognizable image—like an apple or a bird—it's an abstract geometric form that represents your business. A few famous examples include the BP starburst-y logo, the Pepsi divided circle and the strip-y Adidas flower.
             </p>
-
+            <p className="infoParagraph">
+                Like all logo symbols, abstract marks work really well because they condense your brand into a single image. However, instead of being restricted to a picture of something unrecognizable, abstract logos allow you to create something truly unique to represent your brand.
+            </p>
+            </div>
             <div className="logoContainer">
                 <img className="logo" src={bp} alt=''/>
                 <img className="logo" src={pepsi} alt=''/>

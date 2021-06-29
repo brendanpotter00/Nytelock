@@ -1,9 +1,9 @@
 .section {
-    background-color: orange;
+    background-color: white;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 3rem;
-    
+    padding-top: 5rem;
+    padding-bottom: 10rem;
    
 }
 @media only screen and (max-width: 1300px) {
