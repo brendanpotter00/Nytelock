@@ -4,7 +4,7 @@ import '../styles/infosections.css'
 export default function LettermarkInfo() {
     return (
         <div className="infoContainer">
-            <p>lettermark container</p>
+            <p></p>
             <h2 className="infoTitle">
                 Lettermark Logos
             </h2>

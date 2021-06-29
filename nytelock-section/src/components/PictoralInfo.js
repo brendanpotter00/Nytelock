@@ -3,9 +3,9 @@ import React from 'react'
 export default function PictoralInfo() {
     return (
         <div className="infoContainer">
-            <p>PictoralInfo container</p>
+            <p></p>
             <h2 className="infoTitle">
-                PictoralInfo Logos
+                Pictoral Mark Logos
             </h2>
 
             <p className="infoParagraph">

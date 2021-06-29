@@ -66,7 +66,7 @@ export default function Selection() {
 
                 <button className='fas fa-theater-masks infoBtn' onClick={() => setInfo('mascot')}><div className='btnText'>Mascot <br/><br/>Logos</div></button>
 
-                <button className='infoBtn' onClick={() => setInfo('comb')}><div className='btnText'>Combination <br/><br/>Logos</div></button>
+                <button className='fas fa-puzzle-piece infoBtn' onClick={() => setInfo('comb')}><div className='btnText'>Combination <br/><br/>Logos</div></button>
 
             </div>
             </div>

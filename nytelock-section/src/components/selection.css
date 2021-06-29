@@ -1,6 +1,7 @@
 .container {
 
 }
+/*TITLE STYLIING*/
 .twoTitles {
     text-align: left;
     margin-left: 1.5rem;
@@ -17,6 +18,7 @@
     font-size: 1.5rem;
 }
 
+/*SELECTION BUTTONS STYLING*/
 .selectionContainer {
     background-color: rgb(61, 59, 59);
     border-radius: 20px;
@@ -52,28 +54,57 @@
     margin-top: 1rem;
 }
 
+/*HOVERING AND ACTIVE EFFECTS FOR SELECTION BTNS*/
+.infoBtn:hover .btnText{
+    color: black;
+    background-color:white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.infoBtn:hover {
+    color: black;
+    background-color:white;
+}
+
+
 .infoBtn:focus .btnText {
     background-color:white;
     color: black;
 }
-
-.infoBtn.active {
+.infoBtn:focus {
     background-color:white;
     color: black;
 }
+.btnText:focus {
+    background-color:white;
+    color: black;
+}
+
+
+.infoBtn:active {
+    background-color:white;
+    color: black;
+}
+.btnText:active {
+    background-color:white;
+    color: black;
+}
+
+
 .infoBtn:visited {
     background-color: white;
     color:black;
 }
-
-.btnText:hover {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: yellow;
-
+.btnText:visited { 
+    background-color: white;
+    color:black;
 }
 
 
+
+
+/*CONTACT BUTTON STYLING*/
 .contactBtnContainer {
     position: relative;
     display: flex;
