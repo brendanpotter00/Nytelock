@@ -1,3 +1,25 @@
 .infoContainer {
-    background-color: green;
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.infoTitle{
+    font-size: 2rem;
+    font-family:sans-serif;
+
+}
+
+.infoParagraph {
+    font-weight: lighter;
+    padding-right: 3rem;
+}
+
+.logoContainer {
+
+}
+.logo { 
+    
 }

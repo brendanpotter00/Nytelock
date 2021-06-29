@@ -1,0 +1,104 @@
+.container {
+
+}
+.twoTitles {
+    text-align: left;
+    margin-left: 1.5rem;
+    
+}
+.bulletTitle {
+    color: yellow;
+    padding-top: 3rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.mainTitle {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.selectionContainer {
+    background-color: rgb(61, 59, 59);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.infoBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.infoBtn {
+    cursor: pointer;
+    height: 8rem;
+    background-color: inherit;
+    width: 10rem;
+    color: yellow;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid gray;
+    font-size:.5;
+    position: relative;
+    padding-bottom: .8rem;
+}
+
+.btnText {
+    color: white;
+    margin-top: 1rem;
+}
+
+.infoBtn:focus .btnText {
+    background-color:white;
+    color: black;
+}
+
+.infoBtn.active {
+    background-color:white;
+    color: black;
+}
+.infoBtn:visited {
+    background-color: white;
+    color:black;
+}
+
+.btnText:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+}
+
+
+.contactBtnContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8rem;
+    bottom: 4rem;
+    
+}
+
+.contactBtn {
+    cursor: pointer;
+    
+    height: 2rem;
+    background-color: yellow;
+    padding: .5rem;
+    padding-bottom: .5rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border:none;
+    font-size:.5;
+    position: relative;
+    justify-content: flex-end;
+    
+}
+
