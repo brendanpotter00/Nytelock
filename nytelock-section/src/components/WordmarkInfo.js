@@ -1,4 +1,7 @@
 import React from 'react'
+import visa from '../imgs/visa.png';
+import cola from '../imgs/cola.png';
+import google from '../imgs/google.png';
 
 export default function WordmarkInfo() {
     return (
@@ -15,9 +18,9 @@ export default function WordmarkInfo() {
             </p>
 
             <div className="logoContainer">
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
+                <img className="logo" src={visa} alt=''/>
+                <img className="logo" src={cola} alt=''/>
+                <img className="logo" src={google} alt=''/>
             </div>
         </div>
     )

@@ -1,11 +1,14 @@
 import React from 'react'
+import koolaid from '../imgs/koolaid.png';
+import kfc from '../imgs/kfc.png';
+import mrpeanut from '../imgs/mrpeanut.png';
 
 export default function MascotInfo() {
     return (
         <div className="infoContainer">
-            <p>MascotInfo container</p>
+            <p></p>
         <h2 className="infoTitle">
-            MascotInfo Logos
+            Mascot Logos
         </h2>
 
         <p className="infoParagraph">
@@ -15,9 +18,9 @@ export default function MascotInfo() {
         </p>
 
         <div className="logoContainer">
-            <img className="logo" src='' alt=''/>
-            <img className="logo" src='' alt=''/>
-            <img className="logo" src='' alt=''/>
+            <img className="logo" src={koolaid} alt=''/>
+            <img className="logo" src={kfc} alt=''/>
+            <img className="logo" src={mrpeanut} alt=''/>
         </div>
     </div>
     )

@@ -1,5 +1,6 @@
 .infoContainer {
     background-color: white;
+
     text-align: left;
     padding: 1rem;
     padding-left: 3rem;
@@ -32,4 +33,39 @@
     margin-top: 1rem;
     margin-left:0.4rem;
     margin-right: 0.6rem;
+}
+
+
+
+/**/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/**/
+@media only screen and (max-width: 950px) {
+
+}
+
+/**/
+@media only screen and (max-width: 810px) {
+
+}
+/**/
+@media only screen and (max-width: 740px) {
+
+}
+/**/
+@media only screen and (max-width: 550px) {
+
+}
+
+/**/
+@media only screen and (max-width: 400px) {
+
+}
+
+/**/
+@media only screen and (max-width: 340px) {
+
 }

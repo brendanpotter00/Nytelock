@@ -1,10 +1,13 @@
 import React from 'react'
 import '../styles/infosections.css'
+import doritos from '../imgs/doritos.png';
+import burgerking from '../imgs/burgerking.png';
+import lacoste from '../imgs/lacoste.png';
 
 export default function CombInfo() {
     return (
         <div className="infoContainer">
-            <p>combination container</p>
+            <p></p>
             <h2 className="infoTitle">
                 Combination Logos
             </h2>
@@ -16,9 +19,9 @@ export default function CombInfo() {
             </p>
 
             <div className="logoContainer">
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
+                <img className="logo" src={doritos} alt=''/>
+                <img className="logo" src={burgerking} alt=''/>
+                <img className="logo" src={lacoste} alt=''/>
             </div>
         </div>
     )

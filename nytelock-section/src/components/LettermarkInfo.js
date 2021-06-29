@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/infosections.css'
+import hbo from '../imgs/hbo.png';
+import ibm from '../imgs/ibm.png';
+import nasa from '../imgs/nasa.png';
 
 export default function LettermarkInfo() {
     return (
@@ -16,9 +19,9 @@ export default function LettermarkInfo() {
             </p>
 
             <div className="logoContainer">
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
+                <img className="logo" src={hbo} alt=''/>
+                <img className="logo" src={ibm} alt=''/>
+                <img className="logo" src={nasa} alt=''/>
             </div>
         </div>
     )

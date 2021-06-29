@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/infosections.css'
+import bp from '../imgs/bp.png';
+import adidas from '../imgs/adidas.png';
+import pepsi from '../imgs/pepsi.png';
 
 export default function AbstractInfo() {
     return (
@@ -16,9 +19,9 @@ export default function AbstractInfo() {
             </p>
 
             <div className="logoContainer">
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
+                <img className="logo" src={bp} alt=''/>
+                <img className="logo" src={pepsi} alt=''/>
+                <img className="logo" src={adidas} alt=''/>
             </div>
         </div>
     )

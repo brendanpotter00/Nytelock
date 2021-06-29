@@ -1,4 +1,7 @@
 import React from 'react'
+import apple from '../imgs/apple.png';
+import twitter from '../imgs/twitter.png';
+import target from '../imgs/target.png';
 
 export default function PictoralInfo() {
     return (
@@ -15,9 +18,9 @@ export default function PictoralInfo() {
             </p>
 
             <div className="logoContainer">
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
-                <img className="logo" src='' alt=''/>
+                <img className="logo" src={apple} alt=''/>
+                <img className="logo" src={twitter} alt=''/>
+                <img className="logo" src={target} alt=''/>
             </div>
         </div>
     )
