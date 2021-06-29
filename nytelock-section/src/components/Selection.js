@@ -7,6 +7,8 @@ import AbstractInfo from './AbstractInfo.js'
 import MascotInfo from './MascotInfo.js'
 import CombInfo from './CombInfo.js'
 
+import contactArrow from '../imgs/contactArrow.png';
+
 //import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 import { useState } from 'react';
@@ -52,7 +54,7 @@ export default function Selection() {
             </div>
 
             <div className='contactBtnContainer'>
-                <button onClick={() => window.location.assign('https://nytelock.com/quote/')}className='contactBtn'>Contact Us {<img className='arrow' src={process.env.PUBLIC_URL + '/arrow.png'} alt='none'></img>}</button>
+                <button onClick={() => window.location.assign('https://nytelock.com/quote/')}className='contactBtn'>Contact Us {<img className='arrow' src={contactArrow} alt='none'></img>}</button>
             </div>
             
             <div className="infoBtnContainer">
