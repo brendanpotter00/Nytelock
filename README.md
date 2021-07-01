@@ -1,7 +1,7 @@
 # Nytelock
 recreation of website section for internship
 
-![section](./nytelock-section/src/imgs/section.png)
+![section](./nytelock-section/src/imgs/section.PNG)
 <br />
 <br />
 
