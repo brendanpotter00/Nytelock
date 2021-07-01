@@ -1,7 +1,7 @@
 # Nytelock
 recreation of website section for internship
 
-![section](./src/imgs/section.png)
+<img src="https://raw.githubusercontent.com/brendanpotter00/brendanpotter00/master/nytelock-section/src/imgs/section.PNG" alt="Hello world">
 
 ## Deployed Section
 
